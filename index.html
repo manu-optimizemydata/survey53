@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A lakeside farmhouse retreat in Devanahalli, Bangalore — rooted in nature, crafted for private events and peaceful getaways." />
+  <title>Survey 53 | Earthy Lakeside Farmhouse — Devanahalli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --soil: #2e2218;
+      --bark: #4a3728;
+      --bark-light: #6b5344;
+      --terracotta: #a85a3c;
+      --terracotta-soft: #c4785a;
+      --sage: #6b7f5e;
+      --sage-light: #8fa07f;
+      --moss: #3d5235;
+      --sand: #f2ebe0;
+      --wheat: #e6d9c6;
+      --clay: #d4c4ad;
+      --linen: #faf7f2;
+      --stone: #8a8078;
+      --shadow: 0 16px 48px rgba(46, 34, 24, 0.1);
+      --radius-sm: 8px;
+      --radius-md: 20px;
+      --radius-lg: 40px;
+      --transition: 0.3s ease;
+      --space-xs: 0.5rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2.5rem;
+      --space-xl: 4rem;
+      --border: 1px solid var(--clay);
+      --border-soft: 1px solid var(--wheat);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Karla', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--bark);
+      background: var(--linen);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.5;
+    }
+
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+
+    h1, h2, h3, h4 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 400;
+      line-height: 1.25;
+      color: var(--soil);
+    }
+
+    .wrap {
+      width: min(1120px, 88%);
+      margin: 0 auto;
+      padding: 0 var(--space-md);
+    }
+
+    /* Shared bordered containers */
+    .section-card {
+      background: var(--linen);
+      border: var(--border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg) var(--space-xl);
+      box-shadow: var(--shadow);
+    }
+
+    .section-card--sand {
+      background: var(--sand);
+    }
+
+    .section-card--flush {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .img-frame {
+      border: var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-sm);
+      background: var(--sand);
+      overflow: hidden;
+    }
+
+    .img-frame img {
+      border-radius: calc(var(--radius-md) - 6px);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .page-gap {
+      margin-bottom: var(--space-xl);
+    }
+
+    /* ── Nav ── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(250, 247, 242, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: var(--border);
+      padding: var(--space-xs) 0;
+    }
+
+    .nav .wrap {
+      background: var(--linen);
+      border: var(--border-soft);
+      border-radius: 100px;
+      padding: var(--space-xs) var(--space-md);
+      margin-top: var(--space-sm);
+      margin-bottom: var(--space-sm);
+      box-shadow: var(--shadow);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.35rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      background: var(--sage);
+      border-radius: 50% 50% 50% 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .brand-mark svg { color: var(--linen); }
+
+    .brand-name {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.2rem;
+      color: var(--soil);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: var(--bark-light);
+      transition: color var(--transition);
+    }
+
+    .nav-links a:hover { color: var(--terracotta); }
+
+    .nav-btn {
+      padding: 0.6rem 1.4rem;
+      background: var(--terracotta);
+      color: var(--linen) !important;
+      border-radius: 100px;
+      transition: background var(--transition) !important;
+    }
+
+    .nav-btn:hover { background: var(--bark); color: var(--linen) !important; }
+
+    .menu-btn {
+      display: none;
+      background: none;
+      border: 1px solid var(--clay);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.65rem;
+      cursor: pointer;
+      color: var(--bark);
+    }
+
+    /* ── Hero ── */
+    .hero-section {
+      padding: var(--space-lg) 0 var(--space-xl);
+    }
+
+    .hero-container {
+      display: grid;
+      grid-template-columns: 1fr 1.05fr;
+      gap: var(--space-lg);
+      align-items: stretch;
+      background: var(--sand);
+      border: var(--border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow);
+      min-height: min(82vh, 780px);
+    }
+
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: var(--space-md) var(--space-lg);
+      position: relative;
+      background: var(--linen);
+      border: var(--border-soft);
+      border-radius: var(--radius-md);
+    }
+
+    .hero-text::before {
+      content: '';
+      position: absolute;
+      top: 15%;
+      left: -80px;
+      width: 200px;
+      height: 200px;
+      background: var(--wheat);
+      border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
+      z-index: -1;
+      opacity: 0.7;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 1.5rem;
+    }
+
+    .tag::before {
+      content: '';
+      width: 28px;
+      height: 1px;
+      background: var(--sage);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--terracotta);
+    }
+
+    .hero-lead {
+      font-size: 1.05rem;
+      color: var(--stone);
+      max-width: 42ch;
+      margin-bottom: 2rem;
+    }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-bottom: 3rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.9rem 1.75rem;
+      font-family: 'Karla', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .btn-fill {
+      background: var(--moss);
+      color: var(--linen);
+    }
+
+    .btn-fill:hover {
+      background: var(--sage-dark, #4a5d42);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .btn-line {
+      background: transparent;
+      color: var(--bark);
+      border: 1.5px solid var(--clay);
+    }
+
+    .btn-line:hover {
+      border-color: var(--terracotta);
+      color: var(--terracotta);
+    }
+
+    .hero-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .pill {
+      padding: 0.45rem 1rem;
+      background: var(--sand);
+      border-radius: 100px;
+      font-size: 0.8rem;
+      color: var(--bark-light);
+      border: 1px solid var(--wheat);
+    }
+
+    .hero-visual {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-frame {
+      flex: 1;
+      border: var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-sm);
+      background: var(--linen);
+      overflow: hidden;
+      min-height: 420px;
+    }
+
+    .hero-frame img {
+      width: 100%;
+      height: 100%;
+      min-height: 400px;
+      object-fit: cover;
+      border-radius: calc(var(--radius-md) - 8px);
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: var(--space-lg);
+      left: var(--space-md);
+      background: var(--linen);
+      border: var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-md) var(--space-lg);
+      box-shadow: var(--shadow);
+      max-width: 240px;
+    }
+
+    .hero-badge strong {
+      display: block;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.1rem;
+      color: var(--soil);
+      margin-bottom: 0.25rem;
+    }
+
+    .hero-badge span {
+      font-size: 0.82rem;
+      color: var(--stone);
+    }
+
+    /* ── Intro strip ── */
+    .intro-strip {
+      padding: 0 0 var(--space-xl);
+    }
+
+    .intro-container {
+      background: var(--wheat);
+      border: var(--border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-xl) var(--space-lg);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .intro-strip p {
+      font-family: 'Libre Baskerville', serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+      color: var(--bark);
+      max-width: 52ch;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .intro-strip p em {
+      font-style: italic;
+      color: var(--terracotta);
+    }
+
+    /* ── Section shared ── */
+    section {
+      padding: var(--space-xl) 0;
+    }
+
+    section > .wrap > .section-card,
+    section > .wrap > .section-card--sand {
+      margin-bottom: 0;
+    }
+
+    .section-head {
+      margin-bottom: 3rem;
+    }
+
+    .section-head.center {
+      text-align: center;
+    }
+
+    .section-head.center p {
+      max-width: 52ch;
+      margin: 0.75rem auto 0;
+      color: var(--stone);
+    }
+
+    .section-head h2 {
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+    }
+
+    .eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--terracotta);
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── About ── */
+    .about { background: var(--linen); }
+
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .about-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 1rem;
+    }
+
+    .about-images img {
+      border-radius: var(--radius-md);
+      object-fit: cover;
+      width: 100%;
+      border: var(--border-soft);
+    }
+
+    .about-images .img-wrap {
+      padding: var(--space-xs);
+      background: var(--sand);
+      border: var(--border-soft);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+
+    .about-images .img-wrap.main {
+      grid-row: span 2;
+      border-radius: var(--radius-lg);
+    }
+
+    .about-images .img-wrap.main img {
+      min-height: 360px;
+      height: 100%;
+      border-radius: calc(var(--radius-lg) - 8px);
+    }
+
+    .about-images .img-wrap.sub img { height: 165px; }
+
+    .about-copy p {
+      color: var(--stone);
+      margin-bottom: 1rem;
+    }
+
+    .about-list {
+      list-style: none;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .about-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      padding: var(--space-md) var(--space-lg);
+      background: var(--linen);
+      border: var(--border-soft);
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      color: var(--bark);
+    }
+
+    .about-list li::before {
+      content: '◆';
+      color: var(--sage);
+      font-size: 0.55rem;
+      margin-top: 0.45rem;
+      flex-shrink: 0;
+    }
+
+    /* ── Events ── */
+    .events {
+      position: relative;
+    }
+
+    .events .section-card {
+      background: var(--wheat);
+    }
+
+    .event-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .event-row {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 0;
+      background: var(--linen);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--clay);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .event-row:hover {
+      transform: translateX(6px);
+      box-shadow: var(--shadow);
+    }
+
+    .event-row:nth-child(even) {
+      grid-template-columns: 1fr 280px;
+    }
+
+    .event-row:nth-child(even) .event-img { order: 2; }
+
+    .event-img {
+      height: 220px;
+      overflow: hidden;
+      margin: var(--space-sm);
+      border-radius: var(--radius-sm);
+      border: var(--border-soft);
+    }
+
+    .event-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .event-row:hover .event-img img { transform: scale(1.04); }
+
+    .event-body {
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .event-body h3 {
+      font-size: 1.35rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-body p {
+      font-size: 0.95rem;
+      color: var(--stone);
+    }
+
+    .event-tag {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sage);
+    }
+
+    /* ── Lake ── */
+    .lake {
+      color: var(--linen);
+      position: relative;
+      overflow: hidden;
+      padding: var(--space-xl) 0;
+    }
+
+    .lake .section-card {
+      background: var(--moss);
+      border-color: rgba(255, 255, 255, 0.15);
+      color: var(--linen);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .lake .section-card::after {
+      content: '';
+      position: absolute;
+      bottom: -120px;
+      right: -80px;
+      width: 400px;
+      height: 400px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .lake-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .lake h2,
+    .lake .section-card h2 { color: var(--linen); }
+
+    .lake .eyebrow { color: var(--sage-light); }
+
+    .lake p {
+      color: rgba(250, 247, 242, 0.78);
+      margin-bottom: 1rem;
+    }
+
+    .lake-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .lake-feat {
+      padding: 1.1rem;
+      background: rgba(255,255,255,0.07);
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.9rem;
+      color: rgba(250, 247, 242, 0.85);
+    }
+
+    .lake-feat strong {
+      display: block;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
+      color: var(--linen);
+    }
+
+    .lake-photos {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: var(--space-sm);
+      height: 420px;
+      padding: var(--space-sm);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+    }
+
+    .lake-photos .photo-wrap {
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 4px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .lake-photos img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: calc(var(--radius-sm) - 2px);
+    }
+
+    .lake-photos .photo-wrap.big {
+      grid-row: span 2;
+      border-radius: var(--radius-md);
+    }
+
+    /* ── Amenities ── */
+    .amenities { background: var(--linen); }
+
+    .amenity-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .amenity-card {
+      padding: var(--space-lg) var(--space-md);
+      background: var(--linen);
+      border-radius: var(--radius-md);
+      border: var(--border);
+      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+    }
+
+    .amenity-card:hover {
+      border-color: var(--terracotta-soft);
+      box-shadow: var(--shadow);
+      transform: translateY(-3px);
+    }
+
+    .amenity-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--wheat);
+      border-radius: 50% 50% 45% 55%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.1rem;
+      color: var(--terracotta);
+    }
+
+    .amenity-card h4 {
+      font-family: 'Karla', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--soil);
+    }
+
+    .amenity-card p {
+      font-size: 0.88rem;
+      color: var(--stone);
+      line-height: 1.6;
+    }
+
+    /* ── Gallery ── */
+    .gallery {
+      padding: var(--space-xl) 0;
+    }
+
+    .gallery .section-card {
+      background: var(--sand);
+    }
+
+    .gallery-mosaic {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: 200px 200px;
+      gap: var(--space-sm);
+      padding: var(--space-sm);
+      background: var(--linen);
+      border: var(--border-soft);
+      border-radius: var(--radius-md);
+    }
+
+    .gallery-mosaic .g-item {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+      border: var(--border-soft);
+      padding: 4px;
+      background: var(--wheat);
+    }
+
+    .gallery-mosaic .g-item img {
+      border-radius: calc(var(--radius-md) - 4px);
+    }
+
+    .gallery-mosaic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-mosaic .g-item:hover img { transform: scale(1.05); }
+
+    .g-item:nth-child(1) { grid-column: span 5; grid-row: span 2; border-radius: var(--radius-lg); }
+    .g-item:nth-child(2) { grid-column: span 3; }
+    .g-item:nth-child(3) { grid-column: span 4; }
+    .g-item:nth-child(4) { grid-column: span 3; }
+    .g-item:nth-child(5) { grid-column: span 4; }
+
+    /* ── Location ── */
+    .location { background: var(--linen); }
+
+    .location-box {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 3rem;
+      background: var(--wheat);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .section-card--flush .location-box {
+      border-radius: 0;
+      gap: 0;
+    }
+
+    .location-info {
+      padding: 3rem;
+    }
+
+    .location-info p { color: var(--stone); margin-bottom: 1.5rem; }
+
+    .loc-detail {
+      padding: 1rem 0;
+      border-top: 1px solid var(--clay);
+    }
+
+    .loc-detail h4 {
+      font-family: 'Karla', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--terracotta);
+      margin-bottom: 0.35rem;
+    }
+
+    .loc-detail p {
+      font-size: 0.92rem;
+      margin: 0;
+      color: var(--bark);
+    }
+
+    .location-map {
+      min-height: 380px;
+      background: var(--clay);
+    }
+
+    .location-map iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 380px;
+      border: 0;
+      filter: sepia(20%) saturate(80%);
+    }
+
+    /* ── Contact ── */
+    .contact {
+      color: var(--linen);
+      padding: var(--space-xl) 0;
+    }
+
+    .contact .section-card {
+      background: var(--soil);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .contact h2,
+    .contact .section-card h2 { color: var(--linen); }
+
+    .contact .eyebrow { color: var(--terracotta-soft); }
+
+    .contact-lead {
+      color: rgba(250, 247, 242, 0.65);
+      margin: 1rem 0 2rem;
+    }
+
+    .contact-items {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.95rem;
+      color: rgba(250, 247, 242, 0.8);
+    }
+
+    .contact-item .ci-icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--terracotta-soft);
+      flex-shrink: 0;
+    }
+
+    .contact-form {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-md);
+      padding: 2.25rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .field { margin-bottom: 1rem; }
+
+    .field label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(250, 247, 242, 0.5);
+      margin-bottom: 0.4rem;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-sm);
+      color: var(--linen);
+      font-family: inherit;
+      font-size: 0.92rem;
+      transition: border-color var(--transition);
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      outline: none;
+      border-color: var(--terracotta-soft);
+    }
+
+    .field textarea { resize: vertical; min-height: 100px; }
+    .field select option { background: var(--soil); }
+
+    .contact-form .btn-fill {
+      width: 100%;
+      margin-top: 0.5rem;
+      background: var(--terracotta);
+      justify-content: center;
+    }
+
+    .contact-form .btn-fill:hover { background: var(--terracotta-soft); }
+
+    /* ── Footer ── */
+    .footer {
+      background: #231a12;
+      color: rgba(250, 247, 242, 0.45);
+      padding: var(--space-lg) 0 var(--space-xl);
+      font-size: 0.85rem;
+    }
+
+    .footer .wrap {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-md);
+      padding: var(--space-md) var(--space-lg);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer .brand-name { color: rgba(250, 247, 242, 0.7); font-size: 1rem; }
+
+    /* ── Responsive ── */
+    @media (max-width: 960px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: var(--space-md);
+      }
+
+      .hero-text { padding: var(--space-md); }
+      .hero-frame { min-height: 300px; }
+      .hero-frame img { min-height: 280px; }
+      .hero-badge { left: var(--space-sm); bottom: var(--space-md); }
+
+      .section-card {
+        padding: var(--space-lg) var(--space-md);
+      }
+
+      .about-layout,
+      .lake-grid,
+      .location-box,
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .event-row,
+      .event-row:nth-child(even) {
+        grid-template-columns: 1fr;
+      }
+
+      .event-row:nth-child(even) .event-img { order: 0; }
+      .event-img { height: 200px; }
+
+      .amenity-grid { grid-template-columns: 1fr 1fr; }
+
+      .gallery-mosaic {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+
+      .g-item:nth-child(1) { grid-column: span 2; grid-row: span 1; height: 260px; }
+      .g-item:nth-child(n) { grid-column: span 1; height: 180px; }
+      .g-item:nth-child(3) { grid-column: span 2; }
+
+      .lake-photos { height: auto; grid-template-columns: 1fr; }
+      .lake-photos .photo-wrap.big { grid-row: span 1; }
+      .lake-photos .photo-wrap img { height: 180px; }
+      .lake-photos .photo-wrap.big img { height: 240px; }
+      .lake-features { grid-template-columns: 1fr; }
+
+      .nav .wrap {
+        border-radius: var(--radius-md);
+        margin-top: var(--space-xs);
+        margin-bottom: var(--space-xs);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--linen);
+        padding: 1.5rem;
+        gap: 1rem;
+        border-bottom: 1px solid var(--wheat);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open { display: flex; }
+      .menu-btn { display: block; }
+      .nav-inner { position: relative; }
+
+      .amenity-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .about-images { grid-template-columns: 1fr; }
+      .about-images .img-wrap.main { grid-row: span 1; }
+      .about-images .img-wrap.main img { min-height: 240px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="#" class="brand">
+        <div class="brand-mark">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1.23-2.89A9.94 9.94 0 0012 20c4.42 0 7.92-2.26 9-6.2C19.5 8.5 17 8 17 8z"/></svg>
+        </div>
+        <span class="brand-name">Survey 53</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">The Estate</a></li>
+        <li><a href="#events">Gatherings</a></li>
+        <li><a href="#lake">The Lake</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#contact" class="nav-btn">Enquire</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="wrap">
+      <div class="hero-container">
+        <div class="hero-text">
+          <span class="tag">Devanahalli, Bangalore</span>
+          <h1>A farmhouse retreat <em>rooted in the earth,</em> open to the lake</h1>
+          <p class="hero-lead">
+            Tucked into the green countryside north of Bangalore, our lakeside estate welcomes private celebrations, corporate retreats, and quiet weekends surrounded by soil, water, and sky.
+          </p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-fill">Plan Your Visit</a>
+            <a href="#events" class="btn btn-line">See Gatherings</a>
+          </div>
+          <div class="hero-pills">
+            <span class="pill">Lakefront access</span>
+            <span class="pill">Private hire only</span>
+            <span class="pill">45 min from airport</span>
+            <span class="pill">Farm-to-table dining</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img
+              src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=1200&q=85"
+              alt="Modern glass pavilion with warm evening light at Survey 53, Devanahalli"
+            />
+          </div>
+          <div class="hero-badge">
+            <strong>Lakeside Living</strong>
+            <span>Where the estate opens onto still waters and open skies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro quote -->
+  <div class="intro-strip">
+    <div class="wrap">
+      <div class="intro-container">
+        <p>Not a hotel. Not a convention hall. A <em>living piece of land</em> — with a pavilion, a lake, and room to breathe.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="section-card">
+        <div class="about-layout">
+          <div class="about-images">
+            <div class="img-wrap main">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=700&q=80" alt="Green farmland near Devanahalli" loading="lazy" />
+            </div>
+            <div class="img-wrap sub">
+              <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&q=80" alt="Lush garden greenery" loading="lazy" />
+            </div>
+            <div class="img-wrap sub">
+              <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80" alt="Misty morning hills" loading="lazy" />
+            </div>
+          </div>
+        <div class="about-copy">
+          <div class="section-head">
+            <p class="eyebrow">The Estate</p>
+            <h2>Grounded in Devanahalli's countryside</h2>
+          </div>
+          <p>
+            Survey 53 sits on acres of farmland and woodland in Devanahalli — a place where stone paths, native planting, and warm timber interiors feel at one with the land around them.
+          </p>
+          <p>
+            The property is hired exclusively for your group. Whether you are hosting a leadership offsite or a family milestone, you have the full estate — gardens, pavilion, lakefront, and all — entirely to yourselves.
+          </p>
+          <ul class="about-list">
+            <li>Corporate offsites and leadership retreats in a natural setting</li>
+            <li>Private celebrations — birthdays, anniversaries, engagements</li>
+            <li>Intimate pre-wedding functions by the water</li>
+            <li>Weekend wellness stays for small groups</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="events" id="events">
+    <div class="wrap">
+      <div class="section-card">
+      <div class="section-head center">
+        <p class="eyebrow">Gatherings</p>
+        <h2>Spaces shaped by the occasion</h2>
+        <p>Each experience is tailored to your group — from boardroom focus to barefoot celebration by the lake.</p>
+      </div>
+      <div class="event-rows">
+        <article class="event-row">
+          <div class="event-img">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80" alt="Corporate retreat outdoors" loading="lazy" />
+          </div>
+          <div class="event-body">
+            <h3>Corporate Retreats</h3>
+            <p>Strategy sessions, team workshops, and leadership programmes away from office walls. AV-ready spaces, breakout areas under the trees, and evenings by the fire.</p>
+            <span class="event-tag">Offsites &amp; Summits</span>
+          </div>
+        </article>
+        <article class="event-row">
+          <div class="event-img">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=600&q=80" alt="Private celebration dinner" loading="lazy" />
+          </div>
+          <div class="event-body">
+            <h3>Private Celebrations</h3>
+            <p>Milestone birthdays, anniversary dinners, and family reunions with farm-style catering, open lawns, and the warmth of an intimate country estate.</p>
+            <span class="event-tag">Milestones &amp; Reunions</span>
+          </div>
+        </article>
+        <article class="event-row">
+          <div class="event-img">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Lakeside gathering at dusk" loading="lazy" />
+          </div>
+          <div class="event-body">
+            <h3>Lakeside Ceremonies</h3>
+            <p>Engagements, mehendi mornings, and sunset receptions on the water's edge. Natural backdrops that need little decoration — earth, water, and golden light.</p>
+            <span class="event-tag">Pre-Wedding &amp; Rituals</span>
+          </div>
+        </article>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lake -->
+  <section class="lake" id="lake">
+    <div class="wrap">
+      <div class="section-card">
+      <div class="lake-grid">
+      <div>
+        <p class="eyebrow">The Lakefront</p>
+        <h2>Where the land meets still water</h2>
+        <p>
+          The estate opens directly onto a private lake — the heart of every visit. Mornings bring mist across the surface; evenings paint the sky in amber and rose.
+        </p>
+        <p>
+          The glass pavilion faces the water, so gatherings flow naturally between sheltered comfort and open air. It is the kind of place that slows time down.
+        </p>
+        <div class="lake-features">
+          <div class="lake-feat">
+            <strong>Lakeside Deck</strong>
+            Ceremonies and cocktails at the water's edge
+          </div>
+          <div class="lake-feat">
+            <strong>Sunset Dining</strong>
+            Al fresco meals with panoramic views
+          </div>
+          <div class="lake-feat">
+            <strong>Boating</strong>
+            Gentle paddles and lakeside leisure
+          </div>
+          <div class="lake-feat">
+            <strong>Natural Light</strong>
+            Photography backdrops at every hour
+          </div>
+        </div>
+      </div>
+      <div class="lake-photos">
+        <div class="photo-wrap big">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=700&q=80" alt="Serene lake at dawn" loading="lazy" />
+        </div>
+        <div class="photo-wrap">
+          <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=400&q=80" alt="Calm water reflections" loading="lazy" />
+        </div>
+        <div class="photo-wrap">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&q=80" alt="Modern retreat pavilion at twilight" loading="lazy" />
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities -->
+  <section class="amenities" id="amenities">
+    <div class="wrap">
+      <div class="section-card section-card--sand">
+      <div class="section-head center">
+        <p class="eyebrow">What We Offer</p>
+        <h2>The comforts of home, on the land</h2>
+        <p>Everything you need for a seamless stay — without losing the feeling of being somewhere wild and unhurried.</p>
+      </div>
+      <div class="amenity-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z"/></svg>
+          </div>
+          <h4>Guest Rooms</h4>
+          <p>Earthy interiors with garden and lake views, designed for restful nights.</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 2C8 6 4 8 4 12a8 8 0 1016 0c0-4-4-6-8-10z"/></svg>
+          </div>
+          <h4>Natural Pool</h4>
+          <p>A pool nestled among native planting — cool water, warm sun, green shade.</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4 19h16M6 16l3-9 3 5 3-7 3 11"/></svg>
+          </div>
+          <h4>Farm-Style Catering</h4>
+          <p>Regional and seasonal menus — from rustic platters to refined sit-down dinners.</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h4>Meeting Spaces</h4>
+          <p>Wi-Fi, projection, and flexible layouts for focused professional sessions.</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Full Privacy</h4>
+          <p>Gated estate, single-group bookings — yours alone for the entire stay.</p>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+          <h4>Outdoor Living</h4>
+          <p>Walking trails, lawn games, bonfires, and stargazing on clear nights.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="section-card">
+      <div class="section-head center">
+        <p class="eyebrow">Gallery</p>
+        <h2>Life on the estate</h2>
+      </div>
+      <div class="gallery-mosaic">
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=800&q=85" alt="Glass pavilion at twilight" loading="lazy" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80" alt="Farm-style dining" loading="lazy" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&q=80" alt="Farmhouse architecture" loading="lazy" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Mountain lake vista" loading="lazy" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&q=80" alt="Warm interior space" loading="lazy" /></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section class="location" id="location">
+    <div class="wrap">
+      <div class="section-card section-card--flush">
+      <div class="location-box">
+        <div class="location-info">
+          <p class="eyebrow">Find Us</p>
+          <h2>Devanahalli, north of Bangalore</h2>
+          <p>Far enough from the city to feel like an escape. Close enough to the airport for guests arriving from anywhere.</p>
+          <div class="loc-detail">
+            <h4>Address</h4>
+            <p>Survey 53 Estate, Devanahalli Rural,<br />Bangalore Rural District, Karnataka 562110</p>
+          </div>
+          <div class="loc-detail">
+            <h4>Getting Here</h4>
+            <p>45 min from Kempegowda International Airport<br />90 min from Bangalore city centre via NH 44</p>
+          </div>
+          <div class="loc-detail">
+            <h4>Nearby</h4>
+            <p>Nandi Hills, Devanahalli Fort, and local vineyards within a short drive.</p>
+          </div>
+        </div>
+        <div class="location-map">
+          <iframe
+            title="Devanahalli location map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5!2d77.71!3d13.24!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6f4c8c8c8c8d%3A0x8c8c8c8c8c8c8c8c!2sDevanahalli%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-card">
+      <div class="contact-layout">
+      <div>
+        <p class="eyebrow">Get in Touch</p>
+        <h2>Let's plan something on the land</h2>
+        <p class="contact-lead">Tell us about your gathering and we'll respond within a business day with availability and a tailored proposal.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            +91 98765 43210
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            enquiries@survey53.in
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            Site visits by appointment
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Your name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="you@email.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="+91" />
+          </div>
+          <div class="field">
+            <label for="type">Occasion</label>
+            <select id="type" required>
+              <option value="" disabled selected>Select</option>
+              <option>Corporate Retreat</option>
+              <option>Private Celebration</option>
+              <option>Pre-Wedding / Engagement</option>
+              <option>Wellness Stay</option>
+              <option>Private Weekend</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" />
+          </div>
+          <div class="field">
+            <label for="guests">Guests</label>
+            <input type="number" id="guests" min="1" placeholder="e.g. 30" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="msg">Your vision</label>
+          <textarea id="msg" placeholder="Tell us what you're planning..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-fill">Send Enquiry</button>
+      </form>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a href="#" class="brand">
+        <div class="brand-mark" style="width:28px;height:28px;">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1.23-2.89A9.94 9.94 0 0012 20c4.42 0 7.92-2.26 9-6.2C19.5 8.5 17 8 17 8z"/></svg>
+        </div>
+        <span class="brand-name">Survey 53</span>
+      </a>
+      <p>&copy; 2026 Survey 53 &middot; Devanahalli, Bangalore</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+    });
+    document.getElementById('contactForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      const orig = btn.textContent;
+      btn.textContent = 'Thank you — we\'ll be in touch';
+      btn.disabled = true;
+      setTimeout(() => { btn.textContent = orig; btn.disabled = false; e.target.reset(); }, 3500);
+    });
+  </script>
+</body>
+</html>
